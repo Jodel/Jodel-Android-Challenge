@@ -47,6 +47,8 @@ Also Animation is welcome, but not mandatory.
 
 • Each photo is shown in a CardView, other details are shown below the CardView.
 
+• Submit your assignment via Pull Request
+
 **Good luck**!
 
 

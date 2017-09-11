@@ -44,7 +44,7 @@ Also Animation is welcome, but not mandatory.
 
 ### Other requirements
 
-• Currently Retrofit is not debug friendly, make it log in trace stack
+• Currently Retrofit is not debug friendly, make it log in stack trace
 
 • Each photo is shown in a CardView, other details are shown below the CardView.
 

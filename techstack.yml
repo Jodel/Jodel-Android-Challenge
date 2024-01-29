@@ -1,0 +1,303 @@
+repo_name: Jodel/Jodel-Android-Challenge
+report_id: 9c2d8919445e5f24def422dd5e1171d6
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-29T10:49:21+00:00'
+requested_by: selmanon
+provider: github
+branch: master
+detected_tools_count: 22
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '25.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: EventBus
+  description: An open-source library for Android and Java
+  website_url: http://greenrobot.org/eventbus/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/9610/no-img-open-source.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '7.1'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: Dagger
+  description: A fast dependency injector for Android and Java
+  website_url: http://square.github.io/dagger/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3672/no-img-open-source.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: Retrofit
+  description: A type-safe HTTP client for Android and Java
+  website_url: http://square.github.io/retrofit/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/2856/retrofit-logo.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: com.google.dagger:dagger
+  description: A fast dependency injector for Android and Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: com.jakewharton:butterknife
+  description: Field and method binding for Android views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: com.squareup.okhttp3:okhttp
+  description: 'Null'
+  version: 3.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: com.squareup.picasso:picasso
+  description: A powerful image downloading and caching library for Android
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: com.squareup.retrofit2:converter-gson
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: com.squareup.retrofit2:retrofit
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+  vulnerabilities:
+  - name: XML External Entity (XXE) vulnerability in Square Retrofit
+    cve_id: CVE-2018-1000844
+    cve_url: https://github.com/advisories/GHSA-j379-9jr9-w5cq
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.5.0
+  - name: Directory Traversal vulnerability in Square Retrofit
+    cve_id: CVE-2018-1000850
+    cve_url: https://github.com/advisories/GHSA-8p8g-f9vg-r7xr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.5.0
+- name: io.reactivex.rxjava2:rxandroid
+  description: RxAndroid
+  version: 2.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: io.reactivex.rxjava2:rxjava
+  description: Reactive Extensions for Java
+  version: 2.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  version: 2.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.5.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Jodel/Jodel-Android-Challenge/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: ChunyuanCai
+  last_updated_on: 2017-08-13 18:17:23.000000000 Z
